@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: f01;
+  src: url(../font/IRAN\ Kharazmi.ttf);
+}
+
+body {
+  width: 100%;
+  height: 960px;
+  background-color: #e0e8ff;
+}
+
+body > div.head {
+  width: 100%;
+  height: 460px;
+  background-image: url(../image/pattern-background-desktop.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+body > div.box {
+  width: 480px;
+  height: 750px;
+  background-color: white;
+  z-index: 2;
+  position: absolute;
+  right: calc(50% - 480px / 2);
+  top: 109px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+body > div.box > div.img {
+  width: 100%;
+  height: 235px;
+}
+
+body > div.box > div.img > img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  -webkit-border-radius: 15px 15px 0 0;
+  -moz-border-radius: 15px 15px 0 0;
+  -ms-border-radius: 15px 15px 0 0;
+  -o-border-radius: 15px 15px 0 0;
+}
+
+body > div.box > h1 {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  text-align: center;
+  font-family: f01;
+  color: rgb(0, 0, 0);
+}
+
+body > div.box > p {
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: f01;
+  color: rgb(190, 190, 190);
+  line-height: 27px;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+body > div.box > div.box02 {
+  width: 377px;
+  height: 106px;
+  margin: 0 auto;
+  background-color: #f6f7fe;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: relative;
+}
+
+body > div.box > div.box02 > img {
+  position: absolute;
+  top: 27px;
+  left: 23px;
+}
+
+body > div.box > div.box02 > h2 {
+  font-family: f01;
+  position: absolute;
+  left: 94px;
+  top: 25px;
+  font-size: 18px;
+}
+
+body > div.box > div.box02 > p {
+  font-family: f01;
+  position: absolute;
+  left: 94px;
+  top: 50px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: rgb(150, 150, 150);
+}
+
+body > div.box > div.box02 > a {
+  font-family: f01;
+  position: absolute;
+  right: 35px;
+  top: 40px;
+}
+
+body > div.box > a {
+  text-decoration: none;
+}
+
+body > div.box > a > div.box03 {
+  width: 377px;
+  height: 54px;
+  margin: 35px auto;
+  background-color: #493de4;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: relative;
+  box-shadow: 0px 15px 20px #cac6ff;
+  text-align: center;
+}
+
+body > div.box > a > div.box03 > p {
+  color: white;
+  font-family: f01;
+  font-size: 16px;
+  padding-top: 12px;
+}
+
+body > div.box > div.a {
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  top: -10px;
+}
+
+body > div.box > div.a > a.c {
+  text-decoration: none;
+  margin: 0 auto;
+  color: rgb(131, 131, 131);
+  font-family: f01;
+}
